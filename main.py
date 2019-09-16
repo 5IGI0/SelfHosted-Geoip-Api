@@ -28,7 +28,7 @@ Source : https://github.com/5IGI0/SelfHosted-Geoip-Api
 Version : 1.0.0
 
 EndPoints :
-/json/<ip> - json ouput
+/json/<ip> - json output
 """
 
 		self.wfile.write(bytes(message, "utf8"))
